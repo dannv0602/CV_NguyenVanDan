@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  width: 1366px;
+  margin: auto;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.header {
+  width: 100%;
+  position: relative;
+  height: 300px;
+}
+
+.header .overflow {
+  width: 100%;
+  height: 300px;
+  background: #524432;
+  opacity: 0.1;
+  position: absolute;
+}
+
+.header img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.header .flag {
+  background: #524432;
+  position: absolute;
+  top: 0;
+  left: 15%;
+  width: 46px;
+  text-align: center;
+  height: 56px;
+}
+
+.header .flag p {
+  color: #988c74;
+  font-size: 20px;
+  font-family: 'Lobster', cursive;
+  margin-top: 25px;
+}
+
+.header .flag .tail-flag {
+  width: 0;
+  height: 0;
+  border: 23px solid transparent;
+  border-top: 15px solid #524432;
+  position: absolute;
+  bottom: -38px;
+}
+
+.header .frame-text {
+  position: absolute;
+  top: 25%;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  color: #524432;
+}
+
+.header .frame-text p {
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.header .frame-text .name-text {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.header .frame-text .frame-job {
+  padding: 5px 20px;
+  border-bottom: 1px solid #746046;
+  border-top: 1px solid #746046;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.header .frame-text .frame-job .content {
+  position: relative;
+  background: #524432;
+  padding: 5px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.header .frame-text .frame-job .head-frame {
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 0;
+  border: 14px solid transparent;
+  left: -25px;
+  border-right: 11px solid #524432;
+}
+
+.header .frame-text .frame-job ul {
+  overflow: auto;
+  color: #ffffffa8;
+  font-size: 15px;
+}
+
+.header .frame-text .frame-job ul .item {
+  float: left;
+}
+
+.header .frame-text .frame-job ul .item .seperate {
+  display: inline;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.header .frame-text .frame-job .tail-frame {
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 0;
+  border: 14px solid transparent;
+  right: -25px;
+  border-left: 11px solid #524432;
+}
+
+.main {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .alpha {
+  width: 30%;
+  padding: 150px 0px 100px 0px;
+  background: #524432;
+  position: relative;
+}
+
+.main .alpha .frame-img {
+  position: absolute;
+  top: -125px;
+  width: 100%;
+}
+
+.main .alpha .frame-img .frame-imgperson {
+  background: #52443254;
+  padding: 10px;
+  border-radius: 50%;
+  border: 3px solid #524432;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+
+.main .alpha .frame-img .frame-imgperson img {
+  border-radius: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 190px;
+  height: 190px;
+}
+
+.main .alpha .content {
+  width: 80%;
+  margin: auto;
+}
+
+.main .alpha .content .title {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #b1a596;
+  border-bottom: 1px solid #b1a596;
+  padding-bottom: 3px;
+}
+
+.main .alpha .content .frame-content li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #b1a596;
+  padding: 6px 0px;
+}
+
+.main .alpha .content .frame-content li .alpha-text {
+  width: 40%;
+  text-align: left;
+  color: #af9b73;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  display: inline;
+  word-break: break-word;
+}
+
+.main .alpha .content .frame-content li .beta-text {
+  width: 60%;
+  text-align: right;
+  color: #b5b5b4;
+  word-break: break-word;
+  display: inline;
+  font-size: 15px;
+}
+
+.main .alpha .content .frame-content li a {
+  text-decoration: none;
+  color: #af9b73;
+}
+
+.main .alpha .content .frame-content li a i {
+  font-size: 10px;
+  background: #a2905b;
+  color: #29261d;
+  padding: 5px 5px;
+  border-radius: 50%;
+  margin: 0px 10px;
+  width: 22px;
+}
+
+.main .alpha .frame-seprator {
+  margin: 45px auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .alpha .frame-seprator .line {
+  width: 45px;
+  height: 1px;
+  background: #b1a596;
+}
+
+.main .alpha .frame-seprator .dot {
+  background: #ffffff00;
+  height: 12px;
+  width: 12px;
+  margin: auto 10px;
+  margin-top: -6px;
+  border: 1px solid #b1a596;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.main .beta {
+  width: 70%;
+  padding: 30px 32px;
+  background: #e2e6e9;
+}
+
+.main .beta .content-intro {
+  margin-bottom: 30px;
+}
+
+.main .beta .content-intro .title {
+  padding-bottom: 3px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #524432;
+  border-bottom: 1px solid #5c4d4d;
+  margin-bottom: 10px;
+}
+
+.main .beta .content-intro .line-frame {
+  margin: 4px 0px;
+}
+
+.main .beta .content-intro .line-frame i {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  font-size: 12px;
+  margin: 0px 5px;
+}
+
+.main .beta .content-intro .line-frame p {
+  display: inline;
+}
+
+.main .beta .content-intro p {
+  font-size: 17px;
+  color: #383838;
+}
+
+.main .beta .content-intro .skill-frame {
+  display: -ms-grid;
+  display: grid;
+  padding-left: 5px;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+}
+
+.main .beta .content-intro .skill-frame .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 240px;
+}
+
+.main .beta .content-intro .skill-frame .line p {
+  width: 50%;
+  text-transform: uppercase;
+}
+
+.main .beta .content-intro .skill-frame .line .starts {
+  display: inline;
+  line-height: 20px;
+}
+
+.main .beta .content-intro .skill-frame .line .starts i {
+  font-size: 11px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  margin: 0px 2px;
+  color: #b8a986;
+}
+
+.main .beta .content-intro .skill-frame .line .starts .active {
+  color: #5b4d3f;
+}
+
+.main .beta .content-intro .frame-experience li {
+  position: relative;
+  margin: 20px 10px;
+}
+
+.main .beta .content-intro .frame-experience li i {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  position: absolute;
+  font-size: 11px;
+  left: -10px;
+  bottom: 21px;
+  color: #5c4d4d;
+}
+
+.main .beta .content-intro .frame-experience li .up-text {
+  border-bottom: 1px solid #5c4d4d;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.main .beta .content-intro .frame-experience li .up-text p {
+  display: inline;
+  margin: 0px 10px;
+}
+
+.main .beta .content-intro .frame-experience li .up-text .seprate {
+  position: absolute;
+  border-right: 1px solid #5c4d4d;
+  height: 26px;
+  top: 1px;
+  left: 55px;
+}
+
+.main .beta .content-intro .frame-experience li .up-text .time {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.main .beta .content-intro .frame-experience li .content {
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+.main .beta .content-intro .frame-educatinon li {
+  margin: 20px 0px;
+}
+
+.main .beta .content-intro .frame-educatinon li i {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  font-size: 11px;
+  margin-right: 10px;
+  color: #5c4d4d;
+}
+
+.main .beta .content-intro .frame-educatinon li .up-text {
+  display: inline;
+}
+
+.main .beta .content-intro .frame-educatinon li .up-text .upper {
+  text-transform: uppercase;
+}
+
+.main .beta .content-intro .frame-educatinon li .up-text p {
+  display: inherit;
+}
+
+.main .beta .content-intro .frame-educatinon li .down-text {
+  margin-left: 25px;
+  font-size: 17px;
+  margin-top: 2px;
+}
+/*# sourceMappingURL=style.css.map */
