@@ -15,11 +15,17 @@
   font-variant: normal;
   text-rendering: auto;
   line-height: 1; }
-
+/* #cv-top-qr {
+    margin-right: 3.5rem;
+    margin-left: 55rem;
+    margin-top: 1rem;
+} */
 .fa-lg {
   font-size: 1.33333em;
   line-height: 0.75em;
   vertical-align: -.0667em; }
+
+
 
 .fa-xs {
   font-size: .75em; }
